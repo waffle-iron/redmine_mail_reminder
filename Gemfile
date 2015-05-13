@@ -1,4 +1,4 @@
-# For redmine_issue_reminder
+# For redmine_mail_reminder
 gem "prototype-rails"
 
 # Inline CSS
