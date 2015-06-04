@@ -78,13 +78,13 @@ If you use system ruby:
 
 ```console
 $ sudo crontab -e
-0 6 * * * cd {REDMINE_ROOT} && rake reminder:exec RAILS_ENV="production" > /dev/null 2>&1
+0 6 * * * cd {REDMINE_ROOT} && rake reminder:exec RAILS_ENV="production"
 ```
 
 If you use RVM:
 ```console 
 $ sudo crontab -e
-0 6 * * * {REDMINE_ROOT}/script/mail_reminder.sh > /dev/null 2>&1
+0 6 * * * {REDMINE_ROOT}/script/mail_reminder.sh
 ```
 
 ```console 
